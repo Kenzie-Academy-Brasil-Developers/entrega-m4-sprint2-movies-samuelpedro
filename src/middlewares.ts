@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { client, movies } from "./database";
+import { client } from "./database";
 
 
 export const isCreateBodyValid = (req: Request, res: Response, next: NextFunction) => {

@@ -1,7 +1,4 @@
 import { Client } from "pg";
-import { IMovies } from "./interfaces";
-
-export const movies: IMovies[] = [];
 
 export const client = new Client({
   user: process.env.DB_USER,
